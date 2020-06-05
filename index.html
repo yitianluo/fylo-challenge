@@ -1,31 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-
   <title>Frontend Mentor | Fylo data storage component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
+
 <body>
-
-  You’ve used 815 GB of your storage
-
-  185 GB Left
-
-  0 GB
-  1000 GB
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Your Name Here</a>.
+  <div class="top-container">
   </div>
+
+  <div class="mid-container row">
+    <div class="col-md-4 icon-part">
+      <img src="images/logo.svg" alt="fylo logo"> <br>
+      <div class="icon-container">
+        <img class="icon" src="images/icon-document.svg" alt="document icon">
+      </div>
+      <div class="icon-container">
+        <img class="icon" src="images/icon-folder.svg" alt="folder icon">
+      </div>
+      <div class="icon-container">
+        <img class="icon" src="images/icon-upload.svg" alt="upload icon">
+      </div>
+
+    </div>
+
+    <div class="col-md-6 ">
+      <div class="bar-part">
+        <p class="bar-p">You’ve used 815 GB of your storage</p>
+        <div class="outside-bar">
+          <div class="inner-bar">
+            <div class="inner-circle">
+            </div>
+          </div>
+        </div>
+        <div class="storage row">
+          <div class="min-storage col-6">
+            0 GB
+          </div>
+          <div class="max-storage col-6">
+            1000 GB
+          </div>
+        </div>
+        <div class="bubble">
+          <div class="bubble-top">
+            185 GB Left
+          </div>
+
+          <div class="bubble-bottom">
+
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div class="bottom-container">
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Yitian Luo</a>.
+    </div>
+  </div>
+
+
+
 </body>
+
 </html>

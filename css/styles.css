@@ -3,6 +3,7 @@ body {
   color: white;
   background-color: rgb(12, 19, 42);
   font-family: 'Noto Sans SC', sans-serif;
+  font-size: 1.2vw;
 }
 
 .number{
@@ -110,7 +111,7 @@ body {
   color: grey;
   border-radius: 10px 10px 0 10px;
   text-align: center;
-  padding-top: 10px;
+  padding-top: 8px;
 }
 
 .bubble-bottom {
@@ -171,15 +172,19 @@ body {
     top : 120px;
   }
 
-
-
   .bubble-top {
     border-radius: 10px 10px 10px 10px;
+    width:100px;
+    height: 50px;
   }
 
   .bubble-bottom {
     border-color: transparent transparent transparent transparent;
   }
 
+  .big-number{
+    font-size: 24px;
+    color: black;
+  }
 
 }

@@ -66,6 +66,7 @@ body {
   text-align: left;
   margin-top: 40px;
   margin-left: 30px;
+  height:140px;
 }
 
 .outside-bar {
@@ -156,6 +157,7 @@ body {
 
   .bar-part {
     margin-left: 0;
+    height: 100px
   }
 
   .bar-part-div {

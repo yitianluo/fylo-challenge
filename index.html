@@ -4,11 +4,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/styles.css">
-
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&family=Raleway:wght@300;400;500;600&display=swap" rel="stylesheet">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <title>Frontend Mentor | Fylo data storage component</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
@@ -30,9 +31,9 @@
 
     </div>
 
-    <div class="col-md-6 ">
+    <div class="col-md-8 bar-part-div">
       <div class="bar-part">
-        <p class="bar-p">You’ve used 815 GB of your storage</p>
+        <p class="bar-p">You’ve used <span class="number">815</span> GB of your storage</p>
         <div class="outside-bar">
           <div class="inner-bar">
             <div class="inner-circle">
@@ -41,15 +42,15 @@
         </div>
         <div class="storage row">
           <div class="min-storage col-6">
-            0 GB
+            <span class="number">0</span> GB
           </div>
           <div class="max-storage col-6">
-            1000 GB
+            <span class="number">1000</span> GB
           </div>
         </div>
         <div class="bubble">
           <div class="bubble-top">
-            185 GB Left
+            <span class="number big-number">185</span> GB LEFT
           </div>
 
           <div class="bubble-bottom">

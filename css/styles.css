@@ -137,8 +137,8 @@ body {
   position: absolute;
   bottom: 20px;
   left: 50%;
-  width: 400px;
-  margin-left: -200px;
+  width: 600px;
+  margin-left: -300px;
 }
 
 @media (max-width:1028px) {
@@ -157,7 +157,7 @@ body {
 
   .bar-part {
     margin-left: 0;
-    height: 100px
+    height: 100px;
   }
 
   .bar-part-div {
